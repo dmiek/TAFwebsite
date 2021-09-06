@@ -6,7 +6,7 @@
 }
 
 body {
-    background: orange;
+    background: var(--primary-colour);
     font-family: 'Poppins';
     margin: 0;
     color: black;
@@ -16,7 +16,9 @@ body {
 .topbar .container {
     background: white;
     // display: flex;
+    place-content: space-between;
     // grid-template-columns: 180px auto;
+    padding-bottom: 2em;
         
         .mobile-menu {
             width: 40px;
