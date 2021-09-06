@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-colour: orange;
+}
+
 body {
   background: orange;
   font-family: 'Poppins';
@@ -6,19 +10,14 @@ body {
   color: black;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 .topbar .container {
   background: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-grid-columns: 180px auto;
-      grid-template-columns: 180px auto;
-  padding: 1em 2em;
+}
+
+.topbar .container .mobile-menu {
+  width: 50px;
+  height: auto;
+  margin: 0em;
 }
 
 .topbar .container a {
@@ -32,7 +31,7 @@ img {
 }
 
 .topbar .container .tef span {
-  color: orange;
+  color: var(--primary-colour);
 }
 
 .topbar .container .tef span:hover {
@@ -40,10 +39,10 @@ img {
 }
 
 .topbar .container .testme {
-  color: orange;
+  color: var(--primary-colour);
   padding: .2em .5em;
   font-size: 1.3em;
-  border: 3px solid orange;
+  border: 3px solid var(--primary-colour);
   border-radius: 5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +51,7 @@ img {
 
 .topbar .container .testme:hover {
   color: white;
-  background-color: orange;
+  background-color: var(--primary-colour);
   font-weight: normal;
 }
 
@@ -61,29 +60,8 @@ img {
   font-weight: bold;
 }
 
-.topbar .container ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.topbar .container li {
-  margin: -1em 1em;
-}
-
-.topbar nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.prim-nav {
-  padding: 0em 2em;
-}
-
-.sec-nav {
-  position: absolute;
-  right: 1em;
+.background-image .jenkins {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=main.css.map */

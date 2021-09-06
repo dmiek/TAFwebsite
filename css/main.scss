@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+:root {
+    --primary-colour: orange;
+
+}
+
 body {
     background: orange;
     font-family: 'Poppins';
     margin: 0;
     color: black;
-    
-
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
+
 .topbar .container {
     background: white;
-    display: flex;
-    grid-template-columns: 180px auto;
-    padding: 1em 2em;
+    // display: flex;
+    // grid-template-columns: 180px auto;
+        
+        .mobile-menu {
+            width: 50px;
+            height: auto;
+            margin: 0em;
+        }
+
         a {
             text-decoration: none;
             color: black;
@@ -26,22 +32,22 @@ img {
         .tef {
             font-weight: bold;
             span {
-                color: orange;
+                color: var(--primary-colour);
                 &:hover {
                     color: red;
                 }
             }
         }  
         .testme {
-            color: orange;
+            color: var(--primary-colour);
             padding: .2em .5em;
             font-size: 1.3em;
-            border: 3px solid orange;
+            border: 3px solid var(--primary-colour);
             border-radius: 5em;
             display: flex;
             &:hover {
                 color: white;
-                background-color: orange;
+                background-color: var(--primary-colour);
                 font-weight: normal;
                 
             }
@@ -52,22 +58,28 @@ img {
                 font-weight: bold;
             }
         }
-        ul {
-            list-style: none;
-            display: flex;
-        }
-        li {
-            margin: -1em 1em;
-        }
+        // ul {
+        //     list-style: none;
+        //     display: flex;
+        // }
+        // li {
+        //     margin: -1em 1em;
+        // }
 
 }
-.topbar nav {
-    display: flex;
-}
-.prim-nav {
-    padding: 0em 2em;
-}
-.sec-nav {
-    position: absolute;
-    right: 1em;
+// .topbar nav {
+//     display: flex;
+// }
+// .prim-nav {
+//     padding: 0em 2em;
+// }
+// .sec-nav {
+//     position: absolute;
+//     right: 1em;
+// }
+
+
+.background-image .jenkins {
+    width: 100%;
+    height: auto;
 }
