@@ -18,6 +18,8 @@ body {
   width: 50px;
   height: auto;
   margin: 0em;
+  position: absolute;
+  right: 1em;
 }
 
 .topbar .container a {
