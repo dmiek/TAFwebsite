@@ -15,7 +15,7 @@ body {
 }
 
 .topbar .container .mobile-menu {
-  width: 50px;
+  width: 40px;
   height: auto;
   margin: 0em;
   position: absolute;
@@ -30,6 +30,7 @@ body {
 
 .topbar .container .tef {
   font-weight: bold;
+  margin: 0em 1em;
 }
 
 .topbar .container .tef span {
@@ -60,6 +61,10 @@ body {
 .topbar .container .contact:hover {
   color: black;
   font-weight: bold;
+}
+
+.topbar .container ul {
+  list-style: none;
 }
 
 .background-image .jenkins {

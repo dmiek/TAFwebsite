@@ -19,7 +19,7 @@ body {
     // grid-template-columns: 180px auto;
         
         .mobile-menu {
-            width: 50px;
+            width: 40px;
             height: auto;
             margin: 0em;
             position: absolute;
@@ -33,6 +33,7 @@ body {
         }
         .tef {
             font-weight: bold;
+            margin: 0em 1em;
             span {
                 color: var(--primary-colour);
                 &:hover {
@@ -60,10 +61,10 @@ body {
                 font-weight: bold;
             }
         }
-        // ul {
-        //     list-style: none;
-        //     display: flex;
-        // }
+        ul {
+            list-style: none;
+            // display: flex;
+        }
         // li {
         //     margin: -1em 1em;
         // }
