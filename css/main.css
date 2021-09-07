@@ -12,8 +12,8 @@ body {
 
 .topbar .container {
   background: white;
-  padding-top: .5em;
-  padding-bottom: 2em;
+  padding-top: 0;
+  padding-bottom: 1em;
 }
 
 .topbar .container .mobile-menu {
