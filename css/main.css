@@ -12,15 +12,19 @@ body {
 
 .topbar .container {
   background: white;
-  padding-top: 0;
-  padding-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  padding: 1em;
 }
 
 .topbar .container .mobile-menu {
   width: 30px;
   height: auto;
-  position: absolute;
-  right: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .topbar .container a {
@@ -31,7 +35,6 @@ body {
 
 .topbar .container .tef {
   font-weight: bold;
-  margin: 0em 1em;
 }
 
 .topbar .container .tef span {

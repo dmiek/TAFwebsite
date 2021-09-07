@@ -15,16 +15,18 @@ body {
 
 .topbar .container {
     background: white;
-    // place-content: space-between;
+    display: flex;
+    place-content: space-between;
     // grid-template-columns: 180px auto;
-    padding-top: 0;
-    padding-bottom: 1em;
-        
+    padding: 1em;
+
     .mobile-menu {
         width: 30px;
         height: auto;
-        position: absolute;
-        right: 1em;
+        display: flex;
+        // padding-bottom: 1em;
+        // position: absolute;
+        // right: 1em;
     }
 
     a {
@@ -34,7 +36,8 @@ body {
     }
     .tef {
         font-weight: bold;
-        margin: 0em 1em;
+        // padding: 0em 1em;
+        // margin: 1em 1em;
         span {
             color: var(--primary-colour);
             &:hover {
