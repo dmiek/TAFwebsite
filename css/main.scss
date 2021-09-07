@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-    --primary-colour: orange;
+    --primary-colour: rgb(255, 136, 0);
     --secondary-colour: rgb(255, 136, 0);
-    
+    --tertiary-colour: red;
+
 }
+
+
 
 body {
     background: var(--secondary-colour);
@@ -13,39 +16,34 @@ body {
     color: black;
 }
 
-
-
-.topbar .container {
+.topbar {
     background: white;
-    display: flex;
-    place-content: space-between;
-    // grid-template-columns: 180px auto;
     padding: 1em;
     
-    nav {
-        display: none;
-        ul {
-            list-style: none;
-        }
+    .container {
+        display: flex;
+        place-content: space-between;
     }
 
+
+
     .mobile-menu {
-        width: 30px;
-        height: auto;
-        display: flex;
+        cursor: pointer;
+        // display: block;
     }
 
     a {
         text-decoration: none;
         color: black;
-        font-size: 2em;            
+        font-size: 1.5em;            
     }
     .tef {
         font-weight: bold;
         span {
             color: var(--primary-colour);
+
             &:hover {
-                color: red;
+                color: var(--tertiary-colour);
             }
         }
     }  
@@ -56,12 +54,11 @@ body {
     //     font-size: 1.3em;
     //     border: 3px solid var(--primary-colour);
     //     border-radius: 5em;
-    //     display: flex;
+
     //     &:hover {
     //         color: white;
     //         background-color: var(--primary-colour);
-    //         font-weight: normal;
-            
+    //         font-weight: normal;   
     //     }
     // }
     .contact {
@@ -71,22 +68,61 @@ body {
         }
     }
 
+}
 
+    nav {
+        display: none;
+    }
+
+nav {
+    margin: 0em;
+    z-index: 999;
+    position: fixed;
+    width: 40%;
+    top: 0;
+    right: 0;
+    background: lightseagreen;
+    height: 100vh;
+    padding: 2em;
+    .exit-menu {
+        display: block;
+        margin: 0;
+        float: right;
+        padding: 1em;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 5em;
+    }
+    
+    
+    li {
+        a {
+            display: block;
+            padding: .5em 0;
+            margin: 1em 0;
+            text-align: right;
+            
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
 
 }
-// .topbar nav {
-//     display: flex;
-// }
-// .prim-nav {
-//     padding: 0em 2em;
-// }
-// .sec-nav {
-//     position: absolute;
-//     right: 1em;
-// }
 
+nav.mobile-menu-show {
+    display: block;
+}
+ 
 
-.background-image .jenkins {
+.hero .jenkins {
     width: 100%;
     height: auto;
 }

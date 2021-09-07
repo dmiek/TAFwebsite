@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-colour: orange;
+  --primary-colour: rgb(255, 136, 0);
   --secondary-colour: rgb(255, 136, 0);
+  --tertiary-colour: red;
 }
 
 body {
@@ -11,55 +12,94 @@ body {
   color: black;
 }
 
-.topbar .container {
+.topbar {
   background: white;
+  padding: 1em;
+}
+
+.topbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
-  padding: 1em;
 }
 
-.topbar .container nav {
-  display: none;
+.topbar .mobile-menu {
+  cursor: pointer;
 }
 
-.topbar .container nav ul {
-  list-style: none;
-}
-
-.topbar .container .mobile-menu {
-  width: 30px;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.topbar .container a {
+.topbar a {
   text-decoration: none;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
-.topbar .container .tef {
+.topbar .tef {
   font-weight: bold;
 }
 
-.topbar .container .tef span {
+.topbar .tef span {
   color: var(--primary-colour);
 }
 
-.topbar .container .tef span:hover {
-  color: red;
+.topbar .tef span:hover {
+  color: var(--tertiary-colour);
 }
 
-.topbar .container .contact:hover {
+.topbar .contact:hover {
   color: black;
   font-weight: bold;
 }
 
-.background-image .jenkins {
+nav {
+  display: none;
+}
+
+nav {
+  margin: 0em;
+  z-index: 999;
+  position: fixed;
+  width: 40%;
+  top: 0;
+  right: 0;
+  background: lightseagreen;
+  height: 100vh;
+  padding: 2em;
+}
+
+nav .exit-menu {
+  display: block;
+  margin: 0;
+  float: right;
+  padding: 1em;
+}
+
+nav .exit-menu:hover {
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 5em;
+}
+
+nav li a {
+  display: block;
+  padding: .5em 0;
+  margin: 1em 0;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+nav.mobile-menu-show {
+  display: block;
+}
+
+.hero .jenkins {
   width: 100%;
   height: auto;
 }

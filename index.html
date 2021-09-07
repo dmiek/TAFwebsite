@@ -13,11 +13,12 @@
     <div class="topbar">
         <div class="container">
             <a class="tef" href="index.html">Test<span>Ær</span>Fest</a>
-           
-        <!-- </div>
-    
-        <div class="navbar"> -->
+                 
+            <img id="open-mobile-menu" class="mobile-menu" height="30" width="auto" src="images\Hamburger_icon.svg" alt="Open navigation menu">
+
             <nav>
+                <img id="exit-mobile-menu" class="exit-menu" height="30" width="auto" src="images\Round_cross.svg" alt="exit">
+
                 <ul class="prim-nav">
                     <li>
                         <a class="test" href="https://en.wikipedia.org/wiki/Continuous_integration">What's CI?</a>
@@ -38,18 +39,31 @@
                     </li>
                 </ul>
             </nav>
-             
-            <img id="open-mobile-menu" class="mobile-menu" height="200" width="auto" src="images\Hamburger_icon.svg" alt="Open navigation menu">
-        
         </div>  
     </div>
-    <div class="brodtext">
-        This website is used to demonstrate the key features of CI and related tools. It has no other purpose.
-    </div>
-    
+    <div class="hero">
+        <div class="hero-text">
+            This website is used to demonstrate the key features of CI and related tools. It has no other purpose.
+        </div>
 
-    <div class="background-image">
-        <img id="jenkins-background" class="jenkins" src="images\jenkins.jpg" alt="Jenkins is the master, really.">
+        <div class="hero-image">
+            <img id="jenkins-background" class="jenkins" src="images\jenkins.jpg" alt="Jenkins is the master, really.">
+        </div>
     </div>
+
+    <script>
+        const menuBtn = document.getElementById('open-mobile-menu')
+              nav = document.querySelector('nav')
+              exitBtn = document.getElementById('exit-mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            nav.classList.add('mobile-menu-show');
+        })
+
+        exitBtn.addEventListener('click', () => {
+            nav.classList.remove('mobile-menu-show');
+        })
+        
+    </script>
 </body>
 </html>
