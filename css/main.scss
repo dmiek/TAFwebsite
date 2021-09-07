@@ -67,7 +67,6 @@ body {
             font-weight: bold;
         }
     }
-
 }
 
     nav {
@@ -83,12 +82,12 @@ nav {
     right: 0;
     background: lightseagreen;
     height: 100vh;
-    padding: 2em;
+    padding: 1em;
     .exit-menu {
         display: block;
         margin: 0;
         float: right;
-        padding: 1em;
+        padding: 0em;
 
         &:hover {
             cursor: pointer;
@@ -98,15 +97,14 @@ nav {
     ul {
         list-style: none;
         padding: 0;
-        margin-top: 5em;
+        margin-top: 4em;
     }
-    
     
     li {
         a {
             display: block;
             padding: .5em 0;
-            margin: 1em 0;
+            margin: 0;
             text-align: right;
             
             &:hover {

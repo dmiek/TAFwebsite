@@ -64,14 +64,14 @@ nav {
   right: 0;
   background: lightseagreen;
   height: 100vh;
-  padding: 2em;
+  padding: 1em;
 }
 
 nav .exit-menu {
   display: block;
   margin: 0;
   float: right;
-  padding: 1em;
+  padding: 0em;
 }
 
 nav .exit-menu:hover {
@@ -81,13 +81,13 @@ nav .exit-menu:hover {
 nav ul {
   list-style: none;
   padding: 0;
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 nav li a {
   display: block;
   padding: .5em 0;
-  margin: 1em 0;
+  margin: 0;
   text-align: right;
 }
 
