@@ -15,61 +15,58 @@ body {
 
 .topbar .container {
     background: white;
-    // display: flex;
-    place-content: space-between;
+    // place-content: space-between;
     // grid-template-columns: 180px auto;
+    padding-top: .5em;
     padding-bottom: 2em;
         
-        .mobile-menu {
-            width: 40px;
-            height: auto;
-            margin: 0em;
-            position: absolute;
-            right: 1em;
-        }
+    .mobile-menu {
+        width: 30px;
+        height: auto;
+        position: absolute;
+        right: 1em;
+    }
 
-        a {
-            text-decoration: none;
-            color: black;
-            font-size: 2em;            
-        }
-        .tef {
-            font-weight: bold;
-            margin: 0em 1em;
-            span {
-                color: var(--primary-colour);
-                &:hover {
-                    color: red;
-                }
-            }
-        }  
-        .testme {
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 2em;            
+    }
+    .tef {
+        font-weight: bold;
+        margin: 0em 1em;
+        span {
             color: var(--primary-colour);
-            padding: .2em .5em;
-            font-size: 1.3em;
-            border: 3px solid var(--primary-colour);
-            border-radius: 5em;
-            display: flex;
             &:hover {
-                color: white;
-                background-color: var(--primary-colour);
-                font-weight: normal;
-                
+                color: red;
             }
         }
-        .contact {
-            &:hover {
-                color: black;
-                font-weight: bold;
-            }
+    }  
+    // .testme {
+    //     color: var(--primary-colour);
+    //     padding: .2em .5em;
+    //     font-size: 1.3em;
+    //     border: 3px solid var(--primary-colour);
+    //     border-radius: 5em;
+    //     display: flex;
+    //     &:hover {
+    //         color: white;
+    //         background-color: var(--primary-colour);
+    //         font-weight: normal;
+            
+    //     }
+    // }
+    .contact {
+        &:hover {
+            color: black;
+            font-weight: bold;
         }
-        ul {
-            list-style: none;
-            // display: flex;
-        }
-        // li {
-        //     margin: -1em 1em;
-        // }
+    }
+    ul {
+        list-style: none;
+        display: none;
+    }
+
 
 }
 // .topbar nav {
