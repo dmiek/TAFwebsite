@@ -2,15 +2,17 @@
 
 :root {
     --primary-colour: orange;
-
+    --secondary-colour: rgb(255, 136, 0);
+    
 }
 
 body {
-    background: var(--primary-colour);
+    background: var(--secondary-colour);
     font-family: 'Poppins';
     margin: 0;
     color: black;
 }
+
 
 
 .topbar .container {
@@ -19,14 +21,18 @@ body {
     place-content: space-between;
     // grid-template-columns: 180px auto;
     padding: 1em;
+    
+    nav {
+        display: none;
+        ul {
+            list-style: none;
+        }
+    }
 
     .mobile-menu {
         width: 30px;
         height: auto;
         display: flex;
-        // padding-bottom: 1em;
-        // position: absolute;
-        // right: 1em;
     }
 
     a {
@@ -36,8 +42,6 @@ body {
     }
     .tef {
         font-weight: bold;
-        // padding: 0em 1em;
-        // margin: 1em 1em;
         span {
             color: var(--primary-colour);
             &:hover {
@@ -45,6 +49,7 @@ body {
             }
         }
     }  
+
     // .testme {
     //     color: var(--primary-colour);
     //     padding: .2em .5em;
@@ -65,10 +70,7 @@ body {
             font-weight: bold;
         }
     }
-    ul {
-        list-style: none;
-        display: none;
-    }
+
 
 
 }
