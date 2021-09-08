@@ -128,3 +128,45 @@ nav.mobile-menu-show {
 .tools .tools-list {
     background: var(--light-colour);
 }
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+    
+    .topbar .container {
+        display: grid;
+        grid-template-columns: 150px auto ;
+        justify-content: unset;
+    }
+
+    .topbar nav {
+        display: flex;
+        place-content: space-between;
+        background: none;
+        padding: 0;
+        position: unset;
+        height: auto;
+        width: 100%;
+
+        .exit-menu {
+            display: none;
+        }
+        a {
+            font-size: 1em;
+        }
+        
+        ul {
+            margin: 0;
+            display: flex;
+            padding: 0 1em;
+        }
+        
+        li {
+            padding: 0 1em;
+        }
+    
+    }
+
+
+}

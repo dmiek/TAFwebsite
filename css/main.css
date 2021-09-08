@@ -112,4 +112,46 @@ nav.mobile-menu-show {
 .tools .tools-list {
   background: var(--light-colour);
 }
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+  .topbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 150px auto;
+        grid-template-columns: 150px auto;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+  .topbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: space-between;
+    background: none;
+    padding: 0;
+    position: unset;
+    height: auto;
+    width: 100%;
+  }
+  .topbar nav .exit-menu {
+    display: none;
+  }
+  .topbar nav a {
+    font-size: 1em;
+  }
+  .topbar nav ul {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 1em;
+  }
+  .topbar nav li {
+    padding: 0 1em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
