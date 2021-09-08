@@ -105,7 +105,11 @@ nav.mobile-menu-show {
   height: auto;
 }
 
-.ci-list {
+.ci .ci-list {
+  background: var(--light-colour);
+}
+
+.tools .tools-list {
   background: var(--light-colour);
 }
 /*# sourceMappingURL=main.css.map */
