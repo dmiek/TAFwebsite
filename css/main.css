@@ -6,7 +6,7 @@
 }
 
 body {
-  background: var(--secondary-colour);
+  background: grey;
   font-family: 'Poppins';
   margin: 0;
   color: black;
