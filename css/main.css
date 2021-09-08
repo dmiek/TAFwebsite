@@ -47,6 +47,20 @@ body {
   color: var(--tertiary-colour);
 }
 
+.topbar .testme {
+  color: var(--accent-colour);
+  padding: .2em .5em;
+  font-size: 1em;
+  border: 3px solid var(--accent-colour);
+  border-radius: 5em;
+}
+
+.topbar .testme:hover {
+  color: white;
+  background-color: var(--accent-colour);
+  font-weight: normal;
+}
+
 .topbar .contact:hover {
   color: black;
   font-weight: bold;
@@ -107,6 +121,10 @@ nav.mobile-menu-show {
 
 .ci .ci-list {
   background: var(--light-colour);
+}
+
+.ci .ci-list li img {
+  width: 30%;
 }
 
 .tools .tools-list {

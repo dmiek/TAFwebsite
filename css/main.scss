@@ -45,19 +45,19 @@ body {
         }
     }  
 
-    // .testme {
-    //     color: var(--primary-colour);
-    //     padding: .2em .5em;
-    //     font-size: 1.3em;
-    //     border: 3px solid var(--primary-colour);
-    //     border-radius: 5em;
+    .testme {
+        color: var(--accent-colour);
+        padding: .2em .5em;
+        font-size: 1em;
+        border: 3px solid var(--accent-colour);
+        border-radius: 5em;
 
-    //     &:hover {
-    //         color: white;
-    //         background-color: var(--primary-colour);
-    //         font-weight: normal;   
-    //     }
-    // }
+        &:hover {
+            color: white;
+            background-color: var(--accent-colour);
+            font-weight: normal;   
+        }
+    }
     .contact {
         &:hover {
             color: black;
@@ -123,6 +123,12 @@ nav.mobile-menu-show {
 
 .ci .ci-list {
     background: var(--light-colour);
+    li {
+        img {
+            width: 30%;
+        }
+    }
+    
 }
 
 .tools .tools-list {
