@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-    --primary-colour: rgb(255, 136, 0);
-    --secondary-colour: rgb(255, 136, 0);
+    --light-colour: lightgrey;
+    --dark-colour: grey;
+    --accent-colour: rgb(255, 123, 0);
     --tertiary-colour: red;
 
 }
 
-
-
 body {
-    background: grey;
+    background: var(--dark-colour);
     font-family: 'Poppins';
     margin: 0;
     color: black;
 }
 
 .topbar {
-    background: white;
+    background: var(--light-colour);
     padding: 1em;
     
     .container {
@@ -38,7 +37,7 @@ body {
     .tef {
         font-weight: bold;
         span {
-            color: var(--primary-colour);
+            color: var(--accent-colour);
 
             &:hover {
                 color: var(--tertiary-colour);
@@ -116,9 +115,16 @@ nav {
 nav.mobile-menu-show {
     display: block;
 }
- 
 
 .hero .jenkins {
     width: 100%;
     height: auto;
+}
+
+.ci-list {
+    background: var(--light-colour);
+}
+
+.tools-list {
+    
 }
