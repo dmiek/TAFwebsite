@@ -114,9 +114,6 @@ nav.mobile-menu-show {
 }
 
 @media only screen and (min-width: 568px) {
-  body {
-    display: none;
-  }
   .mobile-menu {
     display: none;
   }
