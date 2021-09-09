@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
+  --text-colour: rgb(54, 54, 54);
   --light-colour: rgb(39, 219, 210);
   --dark-colour: rgb(35, 190, 183);
   --accent-colour: rgb(255, 123, 0);
-  --tertiary-colour: red;
+  --secondary-colour: red;
 }
 
 body {
   background: var(--dark-colour);
   font-family: 'Poppins';
   margin: 0;
-  color: black;
+  color: var(--text-colour);
 }
 
 .topbar {
@@ -31,7 +32,7 @@ body {
 
 .topbar a {
   text-decoration: none;
-  color: black;
+  color: var(--text-colour);
   font-size: 1.5em;
 }
 
@@ -44,7 +45,7 @@ body {
 }
 
 .topbar .tef span:hover {
-  color: var(--tertiary-colour);
+  color: var(--secondary-colour);
 }
 
 .topbar .testme {
@@ -64,7 +65,7 @@ body {
 }
 
 .topbar .contact:hover {
-  color: black;
+  color: var(--text-colour);
   font-weight: bold;
 }
 
