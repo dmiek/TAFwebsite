@@ -132,6 +132,10 @@ nav.mobile-menu-show {
   height: auto;
 }
 
+.ci .container {
+  margin-bottom: 3em;
+}
+
 .ci .container .ci-text {
   display: block;
   margin: 2em;
