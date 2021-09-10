@@ -134,13 +134,13 @@ nav.mobile-menu-show {
 
 .ci .container .ci-text {
   display: block;
-  margin: 3em;
+  margin: 2em;
 }
 
 .ci .container .ci-list li {
   list-style: none;
   position: relative;
-  margin: 3em;
+  margin: 2em;
 }
 
 .ci .container .ci-list li::before {
