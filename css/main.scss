@@ -5,7 +5,7 @@
 
     --light-colour: rgb(39, 219, 210);
     --dark-colour: rgb(35, 190, 183);
-    --accent-colour: rgb(255, 123, 0);
+    --accent-colour: #FF7B00;
     --secondary-colour: red;
     // --light-colour: lightgrey;
     // --dark-colour: rgb(177, 177, 177);
@@ -125,23 +125,54 @@ nav.mobile-menu-show {
     display: block;
 }
 
-.hero .jenkins {
+.hero {
+    .hero-text {
+        margin: 5em;
+        display: flex;
+        place-content: center;
+        text-align: center;
+    }
+
+    .jenkins {
     width: 100%;
     height: auto;
+    }
 }
 
-.ci .ci-list {
-    background: var(--light-colour);
-    li {
-        img {
-            width: 30%;
-        }
+.ci .container {
+
+    .ci-text {
+        display: block;
+        // text-align: center;
+        margin: 3em 8em;
     }
     
+    .ci-list {
+        li {
+            list-style: none;
+            position: relative;
+            margin: 2em auto 0 8em;
+
+            &::before {
+                content: '';
+                left: -2em;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-image: url(../images/bullet-orange.svg);
+                background-size: contain;
+                margin-top: .2em;
+
+            }
+        }
+    }
 }
 
 .tools .tools-list {
     background: var(--light-colour);
+    ul {
+        list-style: none;
+    }
 }
 
 @media only screen and (min-width: 800px) {

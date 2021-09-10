@@ -3,7 +3,7 @@
   --text-colour: rgb(54, 54, 54);
   --light-colour: rgb(39, 219, 210);
   --dark-colour: rgb(35, 190, 183);
-  --accent-colour: rgb(255, 123, 0);
+  --accent-colour: #FF7B00;
   --secondary-colour: red;
 }
 
@@ -118,21 +118,48 @@ nav.mobile-menu-show {
   display: block;
 }
 
+.hero .hero-text {
+  margin: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+
 .hero .jenkins {
   width: 100%;
   height: auto;
 }
 
-.ci .ci-list {
-  background: var(--light-colour);
+.ci .container .ci-text {
+  display: block;
+  margin: 3em 8em;
 }
 
-.ci .ci-list li img {
-  width: 30%;
+.ci .container .ci-list li {
+  list-style: none;
+  position: relative;
+  margin: 2em auto 0 8em;
+}
+
+.ci .container .ci-list li::before {
+  content: '';
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/bullet-orange.svg);
+  background-size: contain;
+  margin-top: .2em;
 }
 
 .tools .tools-list {
   background: var(--light-colour);
+}
+
+.tools .tools-list ul {
+  list-style: none;
 }
 
 @media only screen and (min-width: 800px) {
