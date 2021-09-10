@@ -134,6 +134,7 @@ nav.mobile-menu-show {
 
 .ci .container {
   margin-bottom: 4em;
+  display: block;
 }
 
 .ci .container .ci-text {
