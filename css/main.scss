@@ -140,12 +140,13 @@ nav.mobile-menu-show {
 }
 
 .ci .container {
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 
     .ci-text {
         display: block;
         // text-align: center;
         margin: 3em;
+        margin-left: 5em;
     }
     
     .ci-list {
@@ -153,7 +154,7 @@ nav.mobile-menu-show {
             list-style: none;
             position: relative;
             margin: 2em;
-            margin-left: 3em;
+            margin-left: 5em;
 
             &::before {
                 content: '';
@@ -173,16 +174,17 @@ nav.mobile-menu-show {
 .tools .container {
     text-align: center;
     
-    background: var(--light-colour);
+    background: var(--dark-colour);
     ul {
         list-style: none;
+        padding: 0;
     }
 
     li {
-        background: var(--dark-colour);
+        background: var(--light-colour);
         text-align: center;
         padding: 2em 1em;
-        width: 80%;
+        width: 70%;
         margin: 0 auto 5em auto;
         border-radius: 2em;
 

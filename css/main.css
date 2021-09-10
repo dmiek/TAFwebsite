@@ -133,19 +133,20 @@ nav.mobile-menu-show {
 }
 
 .ci .container {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 .ci .container .ci-text {
   display: block;
   margin: 3em;
+  margin-left: 5em;
 }
 
 .ci .container .ci-list li {
   list-style: none;
   position: relative;
   margin: 2em;
-  margin-left: 3em;
+  margin-left: 5em;
 }
 
 .ci .container .ci-list li::before {
@@ -161,18 +162,19 @@ nav.mobile-menu-show {
 
 .tools .container {
   text-align: center;
-  background: var(--light-colour);
+  background: var(--dark-colour);
 }
 
 .tools .container ul {
   list-style: none;
+  padding: 0;
 }
 
 .tools .container li {
-  background: var(--dark-colour);
+  background: var(--light-colour);
   text-align: center;
   padding: 2em 1em;
-  width: 80%;
+  width: 70%;
   margin: 0 auto 5em auto;
   border-radius: 2em;
 }
