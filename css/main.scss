@@ -59,6 +59,8 @@ body {
         border-radius: 5em;
         max-width: 70px;
         float: right;
+        margin-top: .1em;
+
         &:hover {
             color: white;
             background-color: var(--accent-colour);
@@ -142,7 +144,7 @@ nav.mobile-menu-show {
     background: var(--light-colour);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
 
     .mobile-menu {
         display: none;
@@ -180,6 +182,28 @@ nav.mobile-menu-show {
             padding: 0 1em;
         }
     
+    }
+}
+@media only screen and (min-width: 1650px) {
+
+    body {
+        display: block;
+        place-content: center;
+        width: 1650px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .topbar {
+        padding-left: 0;
+        padding-right: 1em;
+
+        .container .tef {
+            padding-left: .7em;
+        }
+        .prim-nav {
+            padding: 0 2em;
+        }
     }
 
 
