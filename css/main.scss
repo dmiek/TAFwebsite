@@ -133,7 +133,7 @@ nav.mobile-menu-show {
         text-align: center;
     }
 
-    .jenkins {
+    .server {
     width: 100%;
     height: auto;
     }
@@ -170,10 +170,27 @@ nav.mobile-menu-show {
     }
 }
 
-.tools .tools-list {
+.tools .container {
+    text-align: center;
+    
     background: var(--light-colour);
     ul {
         list-style: none;
+    }
+
+    li {
+        background: var(--dark-colour);
+        text-align: center;
+        padding: 2em 1em;
+        width: 80%;
+        margin: 0 auto 5em auto;
+        border-radius: 2em;
+
+        img {
+            border: 5px solid orange;
+            border-radius: 2em;
+        }
+
     }
 }
 

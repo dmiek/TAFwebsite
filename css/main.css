@@ -127,7 +127,7 @@ nav.mobile-menu-show {
   text-align: center;
 }
 
-.hero .jenkins {
+.hero .server {
   width: 100%;
   height: auto;
 }
@@ -159,12 +159,27 @@ nav.mobile-menu-show {
   margin-top: .2em;
 }
 
-.tools .tools-list {
+.tools .container {
+  text-align: center;
   background: var(--light-colour);
 }
 
-.tools .tools-list ul {
+.tools .container ul {
   list-style: none;
+}
+
+.tools .container li {
+  background: var(--dark-colour);
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 2em;
+}
+
+.tools .container li img {
+  border: 5px solid orange;
+  border-radius: 2em;
 }
 
 @media only screen and (min-width: 800px) {
