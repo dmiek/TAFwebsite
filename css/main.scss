@@ -144,7 +144,6 @@ nav.mobile-menu-show {
 
     .ci-text {
         display: block;
-        // text-align: center;
         margin: 3em;
         margin-left: 5em;
     }
@@ -191,6 +190,8 @@ nav.mobile-menu-show {
         img {
             border: 5px solid orange;
             border-radius: 2em;
+            width: 90%;
+            height: auto;
         }
 
     }
