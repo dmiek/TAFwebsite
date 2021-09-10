@@ -127,7 +127,7 @@ nav.mobile-menu-show {
 
 .hero {
     .hero-text {
-        margin: 5em;
+        margin: 3em;
         display: flex;
         place-content: center;
         text-align: center;
@@ -145,7 +145,7 @@ nav.mobile-menu-show {
     .ci-text {
         display: block;
         // text-align: center;
-        margin: 2em;
+        margin: 3em;
     }
     
     .ci-list {
@@ -153,6 +153,7 @@ nav.mobile-menu-show {
             list-style: none;
             position: relative;
             margin: 2em;
+            margin-left: 3em;
 
             &::before {
                 content: '';
