@@ -142,10 +142,7 @@ nav.mobile-menu-show {
   margin-bottom: 0em;
   display: block;
   background: var(--dark-colour);
-  padding-top: 3em;
-  padding-bottom: 3em;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 3em 15%;
 }
 
 .ci .container .ci-text {
@@ -177,6 +174,8 @@ nav.mobile-menu-show {
 
 .tools .container {
   text-align: center;
+  padding: 1em;
+  margin: 0;
   background: var(--dark-colour);
 }
 
@@ -191,7 +190,7 @@ nav.mobile-menu-show {
   text-align: center;
   padding: 2em 1em;
   width: 70%;
-  margin: 0 auto 5em auto;
+  margin: 3em auto;
   border-radius: 2em;
 }
 
