@@ -152,6 +152,10 @@ nav.mobile-menu-show {
 
 .ci .container .ci-list {
   padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(17rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
 
 .ci .container .ci-list li {
@@ -244,6 +248,10 @@ nav.mobile-menu-show {
   }
   .topbar nav li {
     padding: 0 1em;
+  }
+  .ci .container .ci-text {
+    font-size: 1.2em;
+    text-align: center;
   }
 }
 

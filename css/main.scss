@@ -152,13 +152,12 @@ nav.mobile-menu-show {
     .ci-text {
         display: block;
         margin: 0 3em 0em 3em;
-        // margin: 3em;
-        // margin-left: 5em;
-        // margin-top: 0;
     }
     
     .ci-list {
         padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
         li {
             list-style: none;
             position: relative;
@@ -205,15 +204,6 @@ nav.mobile-menu-show {
         margin: 3em auto;
         border-radius: 2em;
 
-        // .grafana {
-        //     display: block;
-        //     text-indent: -9999px;
-        //     width: 100px;
-        //     height: 82px;
-        //     background: url(images\1200px-Grafana_logo.svg);
-        //     background-size: 100px 82px;
-
-        // }
  
         img {
             border: 5px solid orange;
@@ -261,8 +251,12 @@ nav.mobile-menu-show {
         
         li {
             padding: 0 1em;
-        }
+        }    
+    }
     
+    .ci .container .ci-text {
+        font-size: 1.2em;
+        text-align: center;
     }
 }
 @media only screen and (min-width: 1650px) {
