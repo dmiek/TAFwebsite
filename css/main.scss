@@ -3,6 +3,7 @@
 :root {
     --text-colour: rgb(54, 54, 54);
 
+    --background-colour: rgb(41, 228, 218);
     --light-colour: rgb(39, 219, 210);
     --dark-colour: rgb(35, 190, 183);
     --accent-colour: #FF7B00;
@@ -15,7 +16,7 @@
 }
 
 body {
-    background: var(--dark-colour);
+    background: var(--background-colour);
     font-family: 'Poppins';
     margin: 0;
     color: var(--text-colour);
@@ -126,8 +127,11 @@ nav.mobile-menu-show {
 }
 
 .hero {
+    background: var(--dark-colour);
+
     .hero-text {
-        margin: 3em;
+        margin: 0em;
+        padding: 3em;
         display: flex;
         place-content: center;
         text-align: center;
@@ -140,16 +144,24 @@ nav.mobile-menu-show {
 }
 
 .ci .container {
-    margin-bottom: 4em;
+    margin-bottom: 0em;
     display: block;
+    background: var(--dark-colour);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 10%;
+    padding-right: 10%;
 
     .ci-text {
         display: block;
-        margin: 3em;
-        margin-left: 5em;
+        margin: 0 3em 0em 3em;
+        // margin: 3em;
+        // margin-left: 5em;
+        // margin-top: 0;
     }
     
     .ci-list {
+        padding: 0;
         li {
             list-style: none;
             position: relative;
