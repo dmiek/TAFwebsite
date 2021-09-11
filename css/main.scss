@@ -209,7 +209,7 @@ nav.mobile-menu-show {
         img {
             border: 5px solid orange;
             border-radius: 2em;
-            width: 90%;
+            width: 60%;
             height: auto;
         }
 
@@ -262,7 +262,7 @@ nav.mobile-menu-show {
 
     .tools .container .tools-list {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
 
         li {
             width: 80%;

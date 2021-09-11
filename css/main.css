@@ -206,7 +206,7 @@ nav.mobile-menu-show {
 .tools .container li img {
   border: 5px solid orange;
   border-radius: 2em;
-  width: 90%;
+  width: 60%;
   height: auto;
 }
 
@@ -257,8 +257,8 @@ nav.mobile-menu-show {
   .tools .container .tools-list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    -ms-grid-columns: (minmax(23rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
   }
   .tools .container .tools-list li {
     width: 80%;
