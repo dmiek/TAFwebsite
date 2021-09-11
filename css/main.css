@@ -147,7 +147,8 @@ nav.mobile-menu-show {
 
 .ci .container .ci-text {
   display: block;
-  margin: 0 3em 0em 3em;
+  margin: 0 2em;
+  padding: 1em 0;
 }
 
 .ci .container .ci-list {
@@ -161,8 +162,8 @@ nav.mobile-menu-show {
 .ci .container .ci-list li {
   list-style: none;
   position: relative;
-  margin: 2em;
-  margin-left: 5em;
+  margin: 1.3em;
+  margin-left: 4em;
 }
 
 .ci .container .ci-list li::before {
@@ -252,6 +253,15 @@ nav.mobile-menu-show {
   .ci .container .ci-text {
     font-size: 1.2em;
     text-align: center;
+  }
+  .tools .container .tools-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+  .tools .container .tools-list li {
+    width: 80%;
   }
 }
 

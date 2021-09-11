@@ -151,7 +151,8 @@ nav.mobile-menu-show {
 
     .ci-text {
         display: block;
-        margin: 0 3em 0em 3em;
+        margin: 0 2em;
+        padding: 1em 0;
     }
     
     .ci-list {
@@ -161,8 +162,8 @@ nav.mobile-menu-show {
         li {
             list-style: none;
             position: relative;
-            margin: 2em;
-            margin-left: 5em;
+            margin: 1.3em;
+            margin-left: 4em;
 
             &::before {
                 content: '';
@@ -258,6 +259,15 @@ nav.mobile-menu-show {
         font-size: 1.2em;
         text-align: center;
     }
+
+    .tools .container .tools-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+        li {
+            width: 80%;
+        }
+    }
 }
 @media only screen and (min-width: 1650px) {
 
@@ -281,5 +291,6 @@ nav.mobile-menu-show {
         }
     }
 
+    
 
 }
