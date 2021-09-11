@@ -259,9 +259,19 @@ nav.mobile-menu-show {
     display: grid;
     -ms-grid-columns: (minmax(23rem, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    padding: 2em;
   }
   .tools .container .tools-list li {
     width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .tools .container .tools-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
 }
 
