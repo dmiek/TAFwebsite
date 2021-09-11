@@ -184,6 +184,10 @@ nav.mobile-menu-show {
     text-align: center;
     padding: 1em;
     margin: 0;
+
+    .tools-text {
+        font-size: 1.2em;
+    }
     
     background: var(--dark-colour);
     ul {

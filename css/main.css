@@ -179,6 +179,10 @@ nav.mobile-menu-show {
   background: var(--dark-colour);
 }
 
+.tools .container .tools-text {
+  font-size: 1.2em;
+}
+
 .tools .container ul {
   list-style: none;
   padding: 0;
