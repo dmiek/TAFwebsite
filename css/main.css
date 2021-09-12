@@ -210,6 +210,11 @@ nav.mobile-menu-show {
   height: auto;
 }
 
+.foot {
+  background: var(--dark-colour);
+  padding: 5em;
+}
+
 @media only screen and (min-width: 800px) {
   .mobile-menu {
     display: none;
